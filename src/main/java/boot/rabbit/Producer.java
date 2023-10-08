@@ -11,6 +11,7 @@ import java.util.concurrent.TimeoutException;
 public class Producer {
 
     public static void main(String[] args) throws IOException, TimeoutException {
+        String  a = "";
         ConnectionFactory f = new ConnectionFactory();
         f.setHost("127.0.0.1");
         f.setUsername("guest");
